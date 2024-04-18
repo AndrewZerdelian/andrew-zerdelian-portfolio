@@ -56,7 +56,7 @@ export const data = [
     name: "To Do List Mobile App",
     image: ToDoListImg,
     github: "https://github.com/AndrewZerdelian/to-do-list-mobile-expo",
-    live: "https://casa-verde-villas.vercel.app/",
+    live: "https://expo.dev/preview/update?message=publish&updateRuntimeVersion=1.0.0&createdAt=2024-04-18T15%3A21%3A06.135Z&slug=exp&projectId=6fa85123-f408-43cb-b67f-a45d5e27cf58&group=8ce0cbbd-c8c8-434d-b7cc-8ac293c1aa51",
     About:
       "a to do list for add and delete functionality but without Async Local Storage or a database ",
   },
