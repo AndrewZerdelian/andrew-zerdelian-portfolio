@@ -16,19 +16,21 @@ const Work = () => {
           <p className="py-6"> Check out some of my recent work</p>
         </div>
 
-        <div className="grid md:grid-cols-2  gap-4">
+        <div className="grid md:grid-cols-2 gap-4">
           {project.map((item, index) => (
             <div
               key={index}
-              style={{ backgroundImage: `url(${item.image})` }}
+              style={{
+                backgroundImage: `url(${item.image})`,
+                backgroundSize: "cover",
+              }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
     flex justify-center text-center items-center mx-auto content-div "
             >
-              <div className="opacity-0 group-hover:opacity-100 ">
+              <div className="opacity-0 group-hover:opacity-100 duration-500">
                 <span className="text-2xl font bold text-white tracking-wider ">
                   {item.name}
                 </span>
-                <p className="pt-4">{item.about}</p>
                 <div className="pt-8 text-center ">
                   <a href={item.github} target="_blank">
                     <button
@@ -48,6 +50,7 @@ const Work = () => {
                     </button>
                   </a>
                 </div>
+                <p className="font-bold">{item.About}</p>
               </div>
             </div>
           ))}

@@ -15,10 +15,29 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
-            Submit the form below or shoot me an email -
-            Andrew.h.Zerdelian@Gmail.com
-            
+          <p className="text-gray-300 py-5">
+            Submit the form below or send me a direct email
+            <span className="font-bold">@</span>
+            <br />
+            <a
+              href="mailto:Andrew.H.Zerdelian@gmail.com"
+              className="text-blue-500"
+            >
+              Andrew.H.Zerdelian@gmail.com
+            </a>
+            <br />
+            <a href="tel:+01012108792" className="text-blue-500">
+              +01012108792
+            </a>
+            <br />
+            <a
+              href="https://wa.me/01012108792"
+              className="text-green-500 font-bold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Message on WhatsApp
+            </a>
           </p>
         </div>
         <input
