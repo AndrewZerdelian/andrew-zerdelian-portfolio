@@ -31,7 +31,7 @@ const Contact = () => {
             </a>
             <br />
             <a
-              href="https://wa.me/01012108792"
+              href="https://wa.me/201012108792"
               className="text-green-500 font-bold"
               target="_blank"
               rel="noopener noreferrer"
